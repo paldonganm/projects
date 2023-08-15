@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+
+html,
+body {
+    height: 100vh;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    background: grey;
+}
+
+.container{
+    background-color: black;
+    color: #fff;
+    padding: 50px 30px;
+    width: 20%;
+}
+
+.btn {
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 66px;
+    background-color: orange;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.row {
+    margin: 8px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.row input {
+    font-size: 20px;
+    margin: 0;
+    padding: 10px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.f2,.f3{
+    text-align: center;
+    font-weight: 800;
+}
+
+.f2{
+    background: #f2f2f2a1;
+    color: #000;
+}
+
+.f3{
+    background: #f2f2f222;
+}
+
+@media (max-width: 500px){
+   .container{
+    width: 50%;
+   }
+
+   .btn{
+    font-size: 13px;
+    width: 58px;
+    height: 58px;
+   }
+
+   .items-center{
+    position: static;
+
+   }
+}

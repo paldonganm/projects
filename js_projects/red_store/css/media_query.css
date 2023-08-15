@@ -1,0 +1,36 @@
+/*-------- Media Query for Menu -------- */
+@media only screen and (max-width: 800px){
+    nav ul{
+        position: absolute;
+        top: 70px;
+        left:0;
+        background: #333;
+        width:100%;
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+    nav ul li{
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    nav ul li a{
+        color:#fff;
+    }
+    .fa.fa-bars{
+        display: block;
+        cursor: pointer;
+    }
+}
+
+/*------ Media Query for less than 600 screen size ------*/
+@media only screen and (max-width: 800px){
+    .row{
+        text-align:center;
+        display: grid;
+    }
+    .col-2,.col-3,.col-4{
+        flex-basis: 100%;
+    }
+}
