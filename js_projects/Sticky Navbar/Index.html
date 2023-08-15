@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Navbar</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        #header{
+            text-align: center;
+        }
+        #logo{
+            width: 250px;
+            height: auto;
+        }
+        #menu-bar{
+            text-align: center;
+            background-color: cadetblue;
+        }
+        #menu-bar li{
+            display: inline-block;
+            padding: 15px 10px;
+            color: white;
+            font-size: 18px;
+            font-weight: bold; 
+        }
+        #container{
+            text-align: center;
+            padding: 50px 100px;
+        }
+        #about-img{
+            width: 100%;
+        }
+        #logo-img{
+            margin: 20px 595px;    
+        }
+        .sticky{
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+
+    </style>
+</head>
+<body>
+    <img id="logo-img" src="data:image/png;base64,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" id="logo" alt="">
+     <nav id="menu-bar" >
+        <li>Home</li>
+        <li>About</li>
+        <li>Client</li>
+        <li>Oue Team</li>
+        <li>Contact us</li>
+     </nav>
+     <div id="container">
+        <h1>About us</h1>
+        <img id="about-img" src="https://www.susangreenecopywriter.com/wp-content/uploads/2013/01/iStock_000039291924_Medium.jpg" alt="">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias error praesentium dignissimos quae impedit nesciunt quasi asperiores officia aut quidem dicta, unde, delectus iste maiores earum placeat incidunt! Ex voluptatibus debitis nulla hic quae nostrum, libero consequuntur veritatis dignissimos delectus ratione, tempore dicta ut ab doloremque blanditiis eligendi at. Quod, necessitatibus eligendi ducimus inventore culpa voluptatum. Consectetur facilis sed explicabo quae labore odio, at laborum ullam libero vel neque optio possimus numquam nemo nulla. Aut, eum eius. Neque ipsa minima debitis reiciendis est sed, modi, sunt aliquid earum voluptate tempore maxime laboriosam architecto facere explicabo vitae consequuntur nam ratione tenetur non possimus sint. Doloremque molestias maiores deserunt pariatur delectus inventore provident laudantium neque optio nam mollitia sapiente ex, accusantium similique eum natus, illum vel fugit quasi quam et. Aliquam ducimus nesciunt quas quos accusantium natus, ex est sit animi culpa incidunt iusto nobis ullam dolorem ipsam, quidem esse, dolore quo fugiat quis sapiente molestias totam. Temporibus veritatis recusandae accusamus voluptatum pariatur blanditiis quod inventore id. Debitis ex expedita maxime, nostrum quae eaque porro, eveniet cupiditate reprehenderit excepturi enim corrupti nesciunt nihil non quod saepe totam vel ea. Labore exercitationem neque eaque dolor aperiam expedita rerum illum est quasi, mollitia fugit quia ipsa corporis! Porro amet corrupti laborum expedita corporis quos tempora, reprehenderit incidunt vel vero aperiam alias voluptatem, perferendis delectus perspiciatis ad obcaecati aliquid inventore eaque enim sint itaque accusamus ducimus. Doloremque eum exercitationem laboriosam numquam dolore maiores quasi voluptate eos cumque assumenda, unde totam ut quisquam suscipit quibusdam at inventore placeat explicabo mollitia nulla culpa eveniet pariatur? Sapiente ab, quisquam iure sed officia magnam eveniet earum a ipsam quae maxime ea mollitia numquam architecto sequi doloremque voluptatum aspernatur nulla id nobis pariatur. Blanditiis ad assumenda libero animi corrupti doloremque fugiat doloribus rem, quod repudiandae et magni. Ex voluptas laudantium quae deleniti aliquam dignissimos accusantium dolor consequuntur consectetur, reprehenderit eius facilis incidunt eos! Magnam explicabo, animi dolores, eligendi a ducimus nisi consequuntur quod aliquam esse rem doloribus alias officiis debitis? Numquam possimus autem rerum sint magni, cum saepe! Maiores cum dolore ut asperiores repellat laborum iure, dignissimos veniam magnam tempora labore! Cupiditate, necessitatibus! Est a harum consequuntur laudantium? Tempore odio iure nam labore tenetur voluptate maiores. Doloremque suscipit natus hic. Culpa labore deserunt totam aliquid illum, illo ipsam quia beatae doloremque natus adipisci optio facere! Debitis voluptatem distinctio, dolore dignissimos, deserunt dicta nam iusto tempora soluta voluptatibus reprehenderit necessitatibus sit.
+
+        </p>
+     </div>
+
+    <script>
+        window.addEventListener('scroll',function(){
+             let navbar = document.getElementById("menu-bar"); 
+              if(window.pageYOffset >= 201){
+                  navbar.classList.add('sticky');
+              }else{
+                navbar.classList.remove('sticky');
+              } 
+        });
+    </script>
+
+
+</body>
+</html>
