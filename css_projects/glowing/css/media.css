@@ -1,0 +1,157 @@
+@media (max-width:500px){
+    /* header start */
+    .header{
+        padding: 30px;
+    }
+
+    .fa-bars,.s{
+        /* display: block; */
+        visibility: visible;
+    }
+
+    .input,.icons,.nav_bar{
+        display: none;
+    }
+
+    .primary_content_txt h1{
+        font-size: 3rem;
+    }
+
+    .primary_content {
+        padding: 109px 20px 150px;
+    }
+
+    .primary_content_txt h1,.primary_content_txt p{
+        width: 100%;
+    }
+
+    .primary_content_btn a{
+        padding: 12px 21px;
+    }
+    /* header end */
+
+    .elementor_ctn{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .order{
+        order: 5;
+    }
+
+    .sec-2-ctn,.sec-3-ctn{
+        grid-template-columns: 1fr;
+    }
+
+    .sec-3-ctn img{
+        width: 100%;
+        height: 90%;
+    }
+
+    .sec-3 h1{
+        padding-bottom: 40px;
+    }
+
+    /* sec-4 */
+
+    .show{
+        display: block;
+        opacity: .5;
+    }
+
+    .hide{
+        display: none;
+    }
+
+    /* product */
+
+    .products{
+        grid-template-columns: 1fr;
+    }
+
+    .products img{
+        width: 100%;
+    }
+
+    .prd-col{
+        margin-bottom: 50px;
+    }
+
+    .col-2,.col-3,.col-4{
+        display: none;
+    }
+    
+    .content span{
+        font-size: 36px;
+    }
+
+    .content{
+        width: 80%;
+        left: 10%;
+    }
+
+    .content_btn a{
+        padding: 10px 25px;
+    }
+
+    .sec-6-ctn{
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+
+    .sec-6-col-1 img{
+        width: 100%;
+    }
+
+    .reviews_ctn{
+        grid-template-columns: 1fr;
+        margin-left: 20px;
+    }
+
+    .review2,.review3{
+        display: none;
+    }
+   
+    .footer_ctn{
+        display: block;
+    }
+
+    .footer_icons_ctn{
+        display:inline-block;
+    }
+
+    .footer_left,.footer_center,.footer_right{
+        text-align: left;
+        margin-bottom: 50px;
+    }
+
+    .footer_icons_ctn_left,.footer_icons_ctn_center,.footer_icons_ctn_right{
+        text-align: left;
+        padding-bottom: 30px;
+    }
+
+.footer_input input{
+    width: 90%;
+    
+}
+
+.footer_left .fa-arrow-right{
+    left: 82%;
+}
+
+.footer_icons_ctn{
+    padding: 0px 20px 40px 20px;
+}
+
+.footer{
+    padding: 100px 20px 20px 20px;
+}
+
+.reviews h2,.sec-6-header h2{
+    font-size: 40px;
+}
+
+.footer_icons_ctn a .up_arrow{
+    left: 88%;
+    top: 86%;
+}
+}

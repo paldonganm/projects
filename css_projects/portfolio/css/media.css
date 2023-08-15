@@ -1,0 +1,141 @@
+@media (max-width:500px) {
+    .left_ul {
+        display: none;
+    }
+
+    .container {
+        width: 100%;
+        grid-template-columns: 1fr;
+        padding: 0;
+    }
+
+    .portfolio {
+        padding: 10px 20px;
+    }
+
+    .right {
+        text-align: center;
+    }
+
+    .right h1 {
+        font-size: 30px;
+    }
+
+    .about_ctn {
+        grid-template-columns: 1fr;
+        padding: 22px 11px;
+    }
+
+    .card {
+        margin: 20px 60px;
+    }
+
+    .left_about {
+        padding-left: 0;
+    }
+
+    .right_about {
+        padding-right: 0;
+    }
+
+
+    .skills_ctn {
+        grid-template-columns: 1fr;
+    }
+
+    .skills_bg {
+        margin-top: 50px;
+    }
+
+    .parent {
+        display: block;
+    }
+
+    .project_left, .project_right {
+        height: 350px;
+        width: 400px;
+        background: transparent;
+        border: 1px solid #d4d4d4;
+    }
+
+    .both {
+        padding: 20px;
+    }
+
+    .projects {
+        padding: 30px;
+    }
+
+    .heading h1 {
+        letter-spacing: 1px;
+        padding-bottom: 40px;
+        font-size: 27px;
+    }
+
+    .project_right {
+        height: 350px;
+        width: 400px;
+        background: linear-gradient(rgba(0, 191, 255, .5), rgba(0, 191, 255, .5)), url(../img/project.png);
+        background-size: cover;
+    }
+
+    .space {
+        margin-bottom: 100px;
+    }
+
+    .contact h2 {
+        font-size: 30px;
+    }
+
+    .contact_ctn {
+        padding: 20px 40px;
+    }
+
+    .contact {
+        padding: 3px 20px 100px 20px;
+    }
+
+    .form input, textarea {
+        width: 100%;
+        height: 55px;
+        background: deepskyblue;
+        border: none;
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+
+    .row1 input {
+        width: 50%;
+        margin-right: 5px;
+    }
+
+    textarea::placeholder {
+        padding-top: 15px;
+    }
+
+    .row4_btn a {
+        position: relative;
+        width: 82%;
+        height: 38px;
+        padding: 10px 30px;
+        margin: 10px 0;
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 14px;
+        letter-spacing: 2px;
+        border-radius: 10px;
+        background: linear-gradient(90deg, #0162c8, #55e7fc);
+        text-align: center;
+        line-height: 36px;
+    }
+
+    .contact h2 {
+        padding-bottom: 50px;
+    }
+
+    .about {
+        padding: 100px 30px;
+    }
+
+}
